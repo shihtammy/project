@@ -6,6 +6,7 @@
 body{
 	background-color: dimgray;
 	}
+
 a{
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-weight: 300;
@@ -33,23 +34,32 @@ h1{
 	}
 
 img {
-    width: 900px;
+    width:280px;
 }
 
 #container {
     width:700px; 
-    margin:auto;
-    padding:30px;  
+    margin:0 auto;
+    margin-top:25px;   
     font-size:20px; 
+		}
+
+#image {
+    float: left;
+    width: 300;  
 }
 
-p{
+#text {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 13px; 
 	color:whitesmoke;
 	text-decoration:none;
-	}
+    text-align: left;
+    float:right;
+    width: 400px;
+    margin-bottom: 50px;
+}
 	
 footer {
     display:block;

@@ -5,6 +5,7 @@
 		
 body{
 	background-color: dimgray;
+	text-align: left;
 	}
 a{
 	font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -33,7 +34,7 @@ h1{
 	}
 
 img {
-    width: 900px;
+    width: 700px;
 }
 
 #container {
