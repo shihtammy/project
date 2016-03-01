@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+		
+body{
+	background-color: dimgray;
+	text-align: left;
+	}
+a{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 300;
+	font-size: 23px; 
+	color:grey; 
+	text-decoration:none;
+	}
+a:visited{
+	color:grey;
+	}
+a:hover{
+	color:#fff; 
+    opacity: 0.5;
+	transition-duration: .5s;
+	}
+	
+h1{
+	list-style-type:none;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+    color:darkgrey;
+	font-weight: 300;
+	font-size: 45px; 
+    text-align: center;
+    padding-top: 30px;
+	}
+
+h2{
+    list-style-type:none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px; 
+    color:lightgray;
+}
+
+img {
+    display: block;
+    float: right;
+    width: 200px;
+    padding-right: 50px;
+}
+
+#colorblock {
+    margin:0 auto;
+    width: 800px;
+    padding-bottom: 50px;
+    background-color: darkcyan;
+}
+
+#container {
+    width:700px; 
+    margin:0 auto;
+    margin-top:25px; 
+    font-size:20px;
+    text-align: left;
+		}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 13px; 
+	color:whitesmoke;
+	text-decoration:none;
+    padding: 10px;
+	}
+	
+footer {
+    display:block;
+	margin:auto;
+	position:fixed;
+    left: 3px;
+    bottom:0px;
+}
+	
+
