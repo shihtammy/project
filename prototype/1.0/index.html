@@ -1,48 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8" />
-	<title>Interactive Prototype 1.0</title>
+    <meta charset="utf-8">
 
-	<link rel="stylesheet" href="prototype1.css">
+    <title>Interactive Prototype 1.0</title>
 
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300' rel='stylesheet' type='text/css'>
-	
+    <link type="text/css" rel="stylesheet" href="prototype1.css">
+
+    <script src="prototype1.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
 </head>
 
+
 <body>
-    <header>
-        <h1>Interactive Prototype 1.0</h1>
-    </header>
-        
-        <section id=container>
-            
-        <p>
-            Home page
-            <img src="../1.0/images/prototype1_pg1.jpg" alt="">
-                
-                <br/><br/>
-                
-            Next page
-            <img src="../1.0/images/prototype1_pg2.jpg" alt="">
-                
-             <br/><br/>
-                
-            Next page
-            <img src="../1.0/images/prototype1_pg3.jpg" alt="">
-                
-        </p>
-            
+
+    <h1>UC DAVIS</h1>
+    <h2>Design Career <br/> Exploration Tool</h2>
+
+    <section id="dropdown">
+
+        <form action="#">
+
+            <fieldset>
+
+                <label for="interior">Interior Design</label>
+
+                <select name="interior" id="interior">
+                    <option selected="selected"></option>
+                    <optgroup label="Interior Design"></optgroup>
+                    <option value="commercial">Commercial</option>
+                    <option value="residential">Residential</option>
+                    <optgroup label="Other"></optgroup>
+                    <option value="light">Lighting</option>
+                    <option value="way">Wayfinding</option>
+                </optgroup>
+                </select>
+
+                <label for="level">Job Level</label>
+
+                <select name="level" id="level">
+                    <option selected="selected"></option>
+                    <option>Part-time</option>
+                    <option>Internship</option>
+                    <option>Entry-Level</option>
+                    <option>Full time</option>
+                </select>
+
+                <label for="exp">Level of Experience</label>
+
+                <select name="exp" id="exp">
+                    <option selected="selected"></option>
+                    <option>&lt;1 year</option>
+                    <option>2 - 5 years</option>
+                    <option>5+ years</option>
+                </select>
+            </fieldset>
+
+        </form>
+
+        <button>
+            <a href="http://www.disd.edu/careers-interior-design.php">NEXT</a>
+        </button>
+
     </section>
-    
+
     <footer>
         <a href="http://validator.w3.org/check?uri=referer">Valid HTML 5</a>
         <a href="http://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
     </footer>
-    
+
 </body>
+
 </html>
-
-<!--This is a comment tag. It allows you to add information that won't be viewed in the browser. For example, I might want to note that you could add the following "tag" to put an image into your blog. <img src="pretty_picture.jpg" /> -->
-
