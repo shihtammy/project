@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: dimgray;
+    text-align: left;
+}
+
+h1 {
+    list-style-type: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    text-align: center;
+    color: darkgrey;
+    padding-top: 30px;
+}
+
+#container {
+    width: 550px;
+    margin: 0 auto;
+    padding: 30px;
+    color: lightgray;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+ol {
+    padding: 25px;
+}
+
+li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding: 5px;
+}
+
+footer {
+    display: block;
+    margin: auto;
+    position: fixed;
+    left: 3px;
+    bottom: 0px;
+}
+
+footer a {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    color: grey;
+    text-decoration: none;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: #fff;
+    opacity: 0.5;
+    transition-duration: .5s;
+}
