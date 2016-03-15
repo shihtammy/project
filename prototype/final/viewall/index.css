@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/background.png);
+    background-repeat: repeat;
+    padding-bottom: 100px;
+}
+
+header {
+    width: 100%;
+    line-height: 60px;
+    background-color: rgba(26,62,104,0.8);
+    text-decoration: none;
+}
+
+header img {
+    margin: 12px 15px 25px 40px;
+    width: 160px;
+    float: left;
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #E5C44D;
+    display: inline;
+    margin: 18px 0px 0px 0px;
+}
+
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: lightgrey;
+    display: inline;
+    margin: 18px 0px 0px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.inner p {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 1em 0;
+    padding-left: 13em;
+    text-align: left;
+    max-width: 800px;
+}
+
+.inner a {
+    color: #E5C44D;
+    text-decoration: none;
+}
+
+.inner a:visited {
+    color: #E5C44D;
+}
+
+.inner a:hover {
+    color: #E5C44D;
+    opacity: 0.5;
+    transition-duration: .5s;
+}
+
+.container {
+    padding-left: 100px;
+    width: 700px;
+}
+
+.description {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 2em;
+    text-align: left;
+    margin-left: 10%;
+    max-width: 980px;
+}
+
+.accordion h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #C99700;
+    margin-left: 10%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+ul .inner {
+    padding-left: 3em;
+    padding-right: 2em;
+    overflow: hidden;
+    display: none;
+}
+
+ul .inner.show {
+    /*display: block;*/
+}
+
+ul li {
+    margin: 0.5em 0;
+}
+
+ul li a.toggle {
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-top: black ;
+    color: black;
+    background: #F0DD99;
+    padding: .5em;
+    border-left-style: solid;
+    border-color: darkgray;
+    border-radius: 0.15em;
+    transition: background .3s ease;
+}
+
+ul li a.toggle:hover {
+    background: rgba(0,0,0,0)
+}
+
+
+
+
+/* VALIDATING HTML CSS */
+
+footer a {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: grey;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: grey;
+}
+
+footer a:hover {
+    color: #fff;
+    opacity: 0.5;
+    transition-duration: .5s;
+}
+
+footer {
+    display: block;
+    margin: auto;
+    position: fixed;
+    left: 3px;
+    bottom: 0px;
+}
