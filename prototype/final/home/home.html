@@ -11,8 +11,6 @@
     <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300' rel='stylesheet' type='text/css'>
 
 
-
-
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular-sanitize.js"></script>
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.css">
@@ -35,39 +33,36 @@
             Discover what careers may be a great fit for you based on the design classes you’ve enjoyed and have taken an interest in!</p>
 
 
-        <a href="../viewall/viewall.html" class="myButton">VIEW ALL COURSES</a>
+        <script src="demo.js"></script>
+
+        <p>{{person.selected.name}}</p>
+
+        <form class="form-horizontal">
+            <fieldset>
+
+                <div class="form-group">
+                    <label class="col-sm-3 control-label"></label>
+                    <div class="col-sm-6">
+
+                        <ui-select ng-model="person.selected" theme="bootstrap" style="width:600px; height: 32px;">
+                            <ui-select-match placeholder="Search for a design course...">{{$select.selected.name}}</ui-select-match>
+                            <ui-select-choices repeat="item in people | filter: $select.search" style="width:600px;">
+                                <div ng-bind-html="item.name | highlight: $select.search"></div>
+                                <small ng-bind-html="item.course | highlight: $select.search"></small>
+                            </ui-select-choices>
+                        </ui-select>
+
+                    </div>
+                </div>
+
+            </fieldset>
+        </form>
+        
 
         <p>OR</p>
-
-
-
- <script src="demo.js"></script>
-
-  <p>{{person.selected.name}}</p>
-
-  <form class="form-horizontal">
-    <fieldset>
-
-      <div class="form-group">
-        <label class="col-sm-3 control-label"></label>
-        <div class="col-sm-6">
-
-          <ui-select ng-model="person.selected" theme="bootstrap" style="width:600px; height: 32px;">
-            <ui-select-match placeholder="Search for a design course...">{{$select.selected.name}}</ui-select-match>
-            <ui-select-choices repeat="item in people | filter: $select.search" style="width:600px;">
-              <div ng-bind-html="item.name | highlight: $select.search"></div>
-              <small ng-bind-html="item.course | highlight: $select.search"></small>
-            </ui-select-choices>
-          </ui-select>
-
-        </div>
-      </div>
-
-    </fieldset>
-  </form>
-
-
-
+        
+        
+        <a href="../viewall/viewall.html" class="myButton">VIEW ALL COURSES</a>
 
     </nav>
 
