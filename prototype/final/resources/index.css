@@ -91,7 +91,7 @@ a {
     font-size: 16px;
     margin: 2em;
     text-align: left;
-    margin-left: 12%;
+    margin-left: 10%;
     max-width: 980px;
 }
 
@@ -133,7 +133,7 @@ ul li a.toggle {
     border-top: black;
     color: black;
     background: transparent;
-    padding: .3em;
+    padding: 1em;
     border-top-style: double;
     border-color: darkgray;
     transition: background .3s ease;
@@ -144,7 +144,9 @@ ul li a.toggle:hover {
     text-decoration: none;
 }
 
-
+li a{
+    margin-left: 11em;
+}
 
 /* RESOURCES MENU */
 
@@ -176,6 +178,8 @@ ul li a.toggle:hover {
     position: relative;
     top: 1px;
 }
+
+
 
 
 /* VALIDATING HTML CSS */

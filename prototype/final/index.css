@@ -91,16 +91,16 @@ footer a {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 300;
     font-size: 15px;
-    color: grey;
+    color: #fff;
     text-decoration: none;
 }
 
 footer a:visited {
-    color: grey;
+    color: #fff;
 }
 
 footer a:hover {
-    color: #fff;
+    color: grey;
     opacity: 0.5;
     transition-duration: .5s;
 }
